@@ -1,0 +1,126 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	font-size: 16px;
+ 	font-family: 'Open Sans', sans-serif;
+ 	background-color: #000;
+}
+
+img, a, span, p{
+  margin: 0;
+  padding: 0;
+  border: none;
+  text-decoration: none;
+}
+
+section{
+  background-image: url(../img/background.png);
+  background-repeat: no-repeat;
+  display: table;
+  margin: 0 auto;
+  position: relative;
+  width: 1200px;
+  height: 1090px;
+}
+
+input{
+	background-color: rgba(0, 0, 0, 0);
+    border: medium none;
+    height: 80px;
+    margin: 0 auto 30px;
+    overflow: auto;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    font-size: 16px;
+}
+
+#introduccion{
+	margin: 0 auto;
+	width: 62%;
+	margin: 240px 0 0 230px;
+	position: absolute;
+}
+
+#contenedor_nave_buscador{
+	background-image: url("../img/nave.png");
+    background-repeat: no-repeat;
+    display: block;
+    height: 500px;
+    margin: 0 auto;
+    width: 770px;
+    background-position: 0 100px;
+    padding-top: 100px;
+    height: 760px;
+}
+
+#info{
+	background-image: url("../img/flecha.png");
+    background-position: center 86px;
+    background-repeat: no-repeat;
+    height: 140px;
+}
+
+#info p{
+	background-color: #8BCA01;
+	margin: 0 auto;
+	border-radius: 10px;
+	-o-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-moz-border-radius: 10px;
+	color: #FFF;
+	padding: 10px;
+	text-align: center;
+    width: 300px;
+ 
+}
+
+#contenedor_nave_buscador a{
+	background-color: #8BCA01;
+    border-radius: 2px;
+    color: #FFFFFF;
+    display: block;
+    font-size: 20px;
+    margin: 0 auto;
+    padding: 5px;
+    text-align: center;
+    width: 90px;
+    border-radius: 2px;
+	-o-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-ms-border-radius: 2px;
+	-moz-border-radius: 2px;	
+}
+
+#contenedor_buscador{
+	margin: 0 auto;
+    width: 315px;
+}
+
+#tweets{
+	margin: 0 auto;
+	width: 70%;
+	border: solid 2px #8BCA01;
+	color: #FFF;
+	padding: 20px;
+}
+#tweets p{
+	margin-bottom: 20px
+}
+
+#tweets span{
+	background-color: #8BCA01 
+}
+
+footer{
+	width: 100%;
+	text-align: center;
+	margin-top: 40px
+}

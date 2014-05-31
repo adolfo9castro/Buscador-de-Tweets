@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Buscador de Tweets para RAPP - Por Adolfo Castro Noreña</title>
+		<meta name="description" content="Buscador de Tweets" />
+		<meta name="keywords" content="Twitter, Buscador de Tweets" />
+		<link href="./img/favicon.ico" />
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.min.js"></script>		
+		<script type="text/javascript" src="./js/oauth.js"></script>
+		<script type="text/javascript" src="./js/script.js"></script>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300italic,600' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="style/stylesheet.css" />
+		 <!--[if lt IE 9]>
+		<script type="text/javascript">
+		   document.createElement("nav");
+		   document.createElement("header");
+		   document.createElement("footer");
+		   document.createElement("section");
+		   document.createElement("article");
+		   document.createElement("aside");
+		   document.createElement("hgroup");
+		</script>
+		<![endif]-->
+		<script type="text/javascript"> 
+			$(document).ready(function(){
+				$("#introduccion").delay(1000).fadeIn(2000);
+				$("#introduccion").delay(1000).fadeOut(2000);
+				$("#mostrar_nave").delay(6000).fadeIn(2000);			
+			});
+		</script>
+	</head>	
+	<body>
+		<section>
+			
+			<div id="introduccion" style="display:none">
+				<img src="img/intro.jpg">
+			</div>
+			<div id="mostrar_nave" style="display:none">
+				<div id="contenedor_nave_buscador">
+					<div id="info">
+						<p>Escribe una frase y encuentra tweets que contengan alguna de las palabras que la conforman.</p>
+					</div>
+					<div id="contenedor_buscador">
+						<input name="buscador" id="buscador" placeholder="Escriba aquí su consulta" />
+						<a href="#" onclick="buscarTweets(); return false;">Buscar</a>
+					</div>
+				</div>
+				<div>
+					<div id="tweets">
+				</div>
+			</div>
+			
+			<footer>
+				<a href="http://www.rapp.com/" target="_blank"><img src="img/rapp.png"></a>
+			</footer>
+			
+		</section>		
+	</body>
+</html>
