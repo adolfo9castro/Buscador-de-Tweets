@@ -1,4 +1,4 @@
-Buscador-de-Tweets
+Buscador de Tweets
 ==================
 
 Buscador de Tweets
