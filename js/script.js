@@ -1,7 +1,7 @@
 $(document).ready(
 	function() 
 	{
-		OAuth.initialize('iRkWcproQf1AxZIiU1S1Llpenzg');
+		OAuth.initialize('b10hXMwGRzff3suBAgtGVYlQe');
 	}
 );
 			
@@ -12,7 +12,7 @@ $(document).ready(
 			function(error, result) 
 			{
 				console.dir(error);						
-				console.dir(result);
+				//console.dir(result);
 
 				if(result != null)
 				{
